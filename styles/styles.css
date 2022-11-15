@@ -1,0 +1,19 @@
+#fast-rolls-chat-dice {
+  flex: 0;
+  display: grid;
+}
+#fast-rolls-chat-dice .fast-rolls-die {
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+#fast-rolls-chat-dice .fast-rolls-die .fast-rolls-die-img {
+  height: 100%;
+  width: 100%;
+  background-position: center 4px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#fast-rolls-chat-dice .fast-rolls-die .fast-rolls-die-img:hover {
+  -webkit-animation: rotation 2s infinite linear;
+          animation: rotation 2s infinite linear;
+}

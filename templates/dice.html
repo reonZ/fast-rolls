@@ -1,0 +1,7 @@
+<div id="fast-rolls-chat-dice" style="grid-template-columns: repeat({{dice.length}}, 1fr);">
+    {{#each dice}}
+    <div class="fast-rolls-die" data-die="{{this.type}}">
+        <div class="fast-rolls-die-img" style="background-image: url({{this.img}});"></div>
+    </div>
+    {{/each}}
+</div>
