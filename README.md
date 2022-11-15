@@ -15,3 +15,5 @@ A series of dice buttons have been added bellow the chat, they can be used in di
 -   if the `shift` key is being held while any text is present in the chat box, a new inline sequence will be added at the end of the text in the form of `[[1dx]]`
 
 -   if the `shift` key is being held while an inline sequence is present at the end of the chat box text, more will be added to it, updating existing dice if needed.
+
+NOTE: Only basic dice are handled by the module `d4, d6, d8, d12 and d20`
