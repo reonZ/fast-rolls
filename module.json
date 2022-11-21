@@ -11,16 +11,16 @@
     ],
     "esmodules": ["scripts/main.js"],
     "styles": ["styles/styles.css"],
-    "version": "1.0.0",
     "compatibility": {
         "minimum": "10.290",
         "verified": "10"
     },
+    "version": "1.0.1",
     "manifestPlusVersion": "1.2.0",
     "url": "https://github.com/reonZ/fast-rolls",
     "readme": "https://github.com/reonZ/fast-rolls/blob/master/README.md",
     "manifest": "https://raw.githubusercontent.com/reonZ/fast-rolls/master/module.json",
-    "download": "https://github.com/reonZ/fast-rolls/releases/download/1.0.0/module.zip",
+    "download": "https://github.com/reonZ/fast-rolls/releases/download/1.0.1/module.zip",
     "changelog": "https://github.com/reonZ/fast-rolls/releases",
     "bugs": "https://github.com/reonZ/fast-rolls/issues"
 }
