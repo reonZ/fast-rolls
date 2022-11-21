@@ -1,6 +1,6 @@
 # FoundryVTT Fast Rolls
 
-![](./readme/show.webp)
+![](./readme/dice.webp)
 
 This module offers the ability to roll dice with as little as one click and more.
 
