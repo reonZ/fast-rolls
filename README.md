@@ -18,4 +18,4 @@ A series of dice buttons have been added bellow the chat, they can be used in di
 
 -   if the `shift` key is being held while an inline sequence is present at the end of the chat box text, more will be added to it, updating existing dice if needed.
 
-NOTE: Only basic dice are handled by the module `d4, d6, d8, d10, d12 and d20`
+NOTE: Only basic dice are handled by the module `d4, d6, d8, d10, d12, d20 and d100`
