@@ -1,5 +1,7 @@
 # FoundryVTT Fast Rolls
 
+![](./readme/show.webp)
+
 This module offers the ability to roll dice with as little as one click and more.
 
 A series of dice buttons have been added bellow the chat, they can be used in different fashions.
