@@ -1,5 +1,5 @@
 import { dice, processDie } from './dice.js'
-import { templatePath } from './utils/foundry.js'
+import { imagePath, templatePath } from './utils/foundry.js'
 
 /**
  * @param {ChatLog} chatLog
@@ -12,7 +12,11 @@ export async function renderChatLog(chatLog, $html) {
 
 /** @param {JQuery} $html */
 async function injectDice($html) {
-    const template = await renderTemplate(templatePath('dice.html'), { dice })
+    const data = {
+        dice: dice.map(x => ({ type: x, img: imagePath(`${x}.webp`) })),
+    }
+
+    const template = await renderTemplate(templatePath('dice.html'), data)
     $html.find('#chat-form').after(template)
 }
 

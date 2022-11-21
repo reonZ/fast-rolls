@@ -1,7 +1,8 @@
 #fast-rolls-chat-dice {
   flex: 0;
   display: grid;
-  margin-top: -6px;
+  padding-inline: 4px;
+  margin-bottom: 4px;
 }
 #fast-rolls-chat-dice .fast-rolls-die {
   aspect-ratio: 1/1;
@@ -10,27 +11,10 @@
 #fast-rolls-chat-dice .fast-rolls-die .fast-rolls-die-img {
   height: 100%;
   width: 100%;
-  background-position: 0 5px;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#fast-rolls-chat-dice .fast-rolls-die .fast-rolls-die-img .fast-rolls-die-value {
-  display: none;
-}
-#fast-rolls-chat-dice .fast-rolls-die .fast-rolls-die-img.d4 {
-  background-size: 130%;
-  background-position: -6px 0px;
-}
-#fast-rolls-chat-dice .fast-rolls-die .fast-rolls-die-img.d4 .fast-rolls-die-value {
-  padding-left: 3px;
 }
 #fast-rolls-chat-dice .fast-rolls-die .fast-rolls-die-img.d6 {
-  background-size: 94%;
-  background-position: 0px 7px;
-}
-#fast-rolls-chat-dice .fast-rolls-die .fast-rolls-die-img:hover .fast-rolls-die-value {
-  display: inline-block;
+  background-size: 86%;
 }

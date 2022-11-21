@@ -1,14 +1,7 @@
 const ROLL_REGEX = /^\/(?:r|roll|publicroll|pr|gmroll|grm|blindroll|broll|br|selfroll|sr) (.+)/i
 const INLINE_REGEX = /\[\[([\dd+ -]+)\]\]$/i
 
-export const dice = [
-    { type: 'd4', img: 'icons/dice/d4black.svg' },
-    { type: 'd6', img: 'icons/dice/d6black.svg' },
-    { type: 'd8', img: 'icons/dice/d8black.svg' },
-    { type: 'd10', img: 'icons/dice/d10black.svg' },
-    { type: 'd12', img: 'icons/dice/d12black.svg' },
-    { type: 'd20', img: 'icons/dice/d20black.svg' },
-]
+export const dice = ['d4', 'd6', 'd8', 'd10', 'd12', 'd20', 'd100']
 
 /** @param {JQuery.ClickEvent<any, any, HTMLElement>} event */
 export async function processDie(event) {
