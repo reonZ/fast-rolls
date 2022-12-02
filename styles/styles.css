@@ -15,6 +15,9 @@
   background-repeat: no-repeat;
   background-size: 100%;
 }
+#fast-rolls-chat-dice .fast-rolls-die .fast-rolls-die-img:hover {
+  filter: drop-shadow(0px 0px 10px var(--color-text-light-highlight));
+}
 #fast-rolls-chat-dice .fast-rolls-die .fast-rolls-die-img.d6 {
   background-size: 86%;
 }
