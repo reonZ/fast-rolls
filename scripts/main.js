@@ -8,6 +8,7 @@ function $ee65ef5b7d5dd2ef$export$79b67f6e2f31449(...path) {
     return `flags.${0, $1623e5e7c705b7c7$export$2e2bcd8739ae039}.${path.join("/")}`;
 }
 function $ee65ef5b7d5dd2ef$export$bdd507c72609c24e(...path) {
+    path = path.filter((x)=>typeof x === "string");
     return `modules/${0, $1623e5e7c705b7c7$export$2e2bcd8739ae039}/templates/${path.join("/")}`;
 }
 function $ee65ef5b7d5dd2ef$export$6d1a79e7c04100c2(...path) {
