@@ -1,3 +1,7 @@
+# 1.3.0
+
+-   added light version of dice
+
 # 1.2.0
 
 -   compatible with v11
