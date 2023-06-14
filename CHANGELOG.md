@@ -1,3 +1,7 @@
+# 1.2.0
+
+-   compatible with v11
+
 # 1.1.2
 
 -   dice will no longer scale upward when the sidebar width increases

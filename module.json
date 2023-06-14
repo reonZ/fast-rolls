@@ -17,13 +17,13 @@
     ],
     "compatibility": {
         "minimum": "10.290",
-        "verified": "10"
+        "verified": "11"
     },
-    "version": "1.1.2",
+    "version": "1.2.0",
     "url": "https://github.com/reonZ/fast-rolls",
     "readme": "https://github.com/reonZ/fast-rolls/blob/master/README.md",
     "manifest": "https://raw.githubusercontent.com/reonZ/fast-rolls/master/module.json",
-    "download": "https://github.com/reonZ/fast-rolls/releases/download/1.1.2/module.zip",
+    "download": "https://github.com/reonZ/fast-rolls/releases/download/1.2.0/module.zip",
     "changelog": "https://github.com/reonZ/fast-rolls/releases",
     "bugs": "https://github.com/reonZ/fast-rolls/issues"
 }
