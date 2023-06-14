@@ -1,4 +1,4 @@
-<div id="fast-rolls-chat-dice">
+<div id="fast-rolls-chat-dice" {{#if light}}class="light" {{/if}}>
     <div class="fast-rolls-dice" style="grid-template-columns: repeat({{dice.length}}, 1fr);">
         {{#each dice}}
         <div class="fast-rolls-die" data-die="{{this.type}}">

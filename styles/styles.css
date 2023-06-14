@@ -25,3 +25,9 @@
 #fast-rolls-chat-dice .fast-rolls-dice .fast-rolls-die .fast-rolls-die-img.d6 {
   background-size: 86%;
 }
+#fast-rolls-chat-dice.light .fast-rolls-dice .fast-rolls-die .fast-rolls-die-img {
+  filter: invert(1);
+}
+#fast-rolls-chat-dice.light .fast-rolls-dice .fast-rolls-die .fast-rolls-die-img:hover {
+  filter: invert(1) drop-shadow(0px 0px 10px black);
+}

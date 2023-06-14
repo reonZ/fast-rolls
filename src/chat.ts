@@ -1,4 +1,5 @@
 import { imagePath, templatePath } from './@utils/foundry/path'
+import MODULE_ID from './module'
 import { dice, processDie } from './dice'
 
 export async function renderChatLog(chatLog: ChatLog, $html: JQuery) {
@@ -8,6 +9,7 @@ export async function renderChatLog(chatLog: ChatLog, $html: JQuery) {
 
 async function injectDice(html: JQuery) {
     const data = {
+        light: game.settings.get(MODULE_ID, 'light'),
         dice: dice.map(x => ({ type: x, img: imagePath(`${x}.webp`) })),
     }
 

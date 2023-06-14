@@ -29,4 +29,18 @@
             }
         }
     }
+
+    &.light {
+        .fast-rolls-dice {
+            .fast-rolls-die {
+                .fast-rolls-die-img {
+                    filter: invert(1);
+
+                    &:hover {
+                        filter: invert(1) drop-shadow(0px 0px 10px black);
+                    }
+                }
+            }
+        }
+    }
 }
