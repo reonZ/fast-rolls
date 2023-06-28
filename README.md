@@ -1,5 +1,7 @@
 # FoundryVTT Fast Rolls
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/K3K6M2V13)
+
 ![](./readme/dice.webp)
 
 This module offers the ability to roll dice with as little as one click and more.
