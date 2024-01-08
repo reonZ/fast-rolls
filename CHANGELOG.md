@@ -1,3 +1,7 @@
+# 1.4.0
+
+-   uses `DamageRoll` for the `Pathfinder Second Edition` system
+
 # 1.3.0
 
 -   added light version of dice
