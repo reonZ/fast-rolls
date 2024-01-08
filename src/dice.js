@@ -50,10 +50,18 @@ function processChatRoll(die, str) {
 }
 
 async function rollDie(die, ctrlKey) {
-	const roll = new Roll(`1${die}`);
+	const RollClass =
+		game.system.id === "pf2e"
+			? CONFIG.Dice.rolls.find((x) => x.name === "DamageRoll")
+			: Roll;
+
+	const roll = new RollClass(`1${die}`);
+
 	const rollMode = ctrlKey
 		? CONST.DICE_ROLL_MODES.BLIND
 		: CONST.DICE_ROLL_MODES.PUBLIC;
+
 	await roll.evaluate({ async: true });
+
 	roll.toMessage({}, { rollMode });
 }
